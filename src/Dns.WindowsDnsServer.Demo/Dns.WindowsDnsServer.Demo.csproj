@@ -2,8 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="6.0.2" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Dns.WindowsDnsServer\Dns.WindowsDnsServer.csproj" />
